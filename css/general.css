@@ -1,0 +1,51 @@
+/* - FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 
+*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: auto 4fr;
+}
+
+svg {
+    width: 2rem;
+}
+
+.heading-secondary {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.heading-third {
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.heading-fourth {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.margin-bottom-big {
+    margin-bottom: 3.2rem;
+}
+
+.margin-bottom-small {
+    margin-bottom: 1.6rem;
+}
